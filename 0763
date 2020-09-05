@@ -1,0 +1,34 @@
+---
+title: "▲0763"
+tags: ""
+---
+
+### 763. Partition Labels
+
+#### Medium
+
+##### Two pointers/Greedy
+
+```python
+class Solution:
+    def partitionLabels(self, S: str) -> List[int]:
+        res = []
+        s = set()
+        tmp = 0
+        d = collections.Counter(S)
+        # print(d)
+        for i in range(len(S)):
+            if S[i] not in s:
+                s.add(S[i])
+            d[S[i]] -= 1
+            f = 0
+            for ch in s:
+                if d[ch] != 0:
+                    f = 1
+            if not f:
+                res.append(i - tmp + 1)
+                tmp = i + 1
+                # print(i, tmp)
+                s = set()
+        return res
+```
