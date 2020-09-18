@@ -72,7 +72,7 @@ class Solution:
 ```
 
 **My Note:**
-* https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/discuss/849128/Python-O(32n)-solution-explained
+* [LeetCode Discuss](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/discuss/849128/Python-O(32n)-solution-explained)
 
 Solution2:
 *Time: O(n)*
