@@ -1,3 +1,3 @@
 # LeetCode
 ### LeetCode Solution with detailed explanation
-### Coding languages: Python & Java
+### Coding languages: Python(main) & Java
