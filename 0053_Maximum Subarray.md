@@ -2,7 +2,7 @@
 ## Easy
 ### Array/Divid and Conquer/Dynamic Programming
 #
-Relative: 121, 152, 697, 978
+Relative: [121](https://github.com/Yiyang-C/LeetCode/blob/master/0121_Best%20Time%20to%20Buy%20and%20Sell%20Stock.md), 152, 697, 978
 #
 
 Given an integer array ```nums```, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
