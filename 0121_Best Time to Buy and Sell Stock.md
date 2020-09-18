@@ -2,7 +2,7 @@
 ## Easy
 ### Array/Dynamic Programming
 #
-Relative: 53, 122, 123, 188, 309
+Relative: [53](https://github.com/Yiyang-C/LeetCode/blob/master/0053_Maximum%20Subarray.md), 122, 123, 188, 309
 #
 
 Say you have an array for which the ith element is the price of a given stock on day i.
