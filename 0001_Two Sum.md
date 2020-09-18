@@ -1,4 +1,4 @@
-# 1. TwoSum
+# 1. Two Sum
 ## Easy
 ### Array/Hash Table
 #
