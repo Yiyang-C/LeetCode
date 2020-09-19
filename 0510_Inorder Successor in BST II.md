@@ -2,7 +2,7 @@
 ## Medium
 ### Tree
 #
-Relative: 285
+Relative: [285](https://github.com/Yiyang-C/LeetCode/blob/master/0285_Inorder%20Successor%20in%20BST.md)
 #
 
 Given a ```node``` in a binary search tree, find the in-order successor of that node in the BST.
@@ -51,6 +51,8 @@ Example2:
 * Get the next node
 
 Solution1:
+*Time: O(n)*
+*Space: O(n)*
 ```python
 """
 # Definition for a Node.
@@ -94,6 +96,8 @@ class Solution:
 * Null
 
 Solution2:
+*Time: O(logn)*
+*Space: O(1)*
 ```python
 """
 # Definition for a Node.
