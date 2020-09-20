@@ -95,10 +95,17 @@ class Solution:
         helper(start, zero_cnt+1, v)
         return self.res
 ```
+**My Note:**
+* Typical Backtracking
+* Iterate the grid count the #0's
+* Find the start and end points
+* Do backtracking
+* Instead of using a set
+* Changing the val of visited position to -1
 
 Solution2:
 *Time: O(n)*
-*Space: O(n)*
+*Space: O(1)*
 ```python
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
