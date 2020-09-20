@@ -24,7 +24,7 @@ Example2:
 * Typical Backtracking
 * Iterate the length
 
-Solution1:
+Solution:
 ```python
 class Solution:
     def sequentialDigits(self, low: int, high: int) -> List[int]:
