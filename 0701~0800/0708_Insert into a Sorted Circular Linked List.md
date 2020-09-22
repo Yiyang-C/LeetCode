@@ -76,4 +76,4 @@ class Solution:
         ins.next = cur.next
         cur.next = ins
         return head
-        ```
+```
