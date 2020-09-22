@@ -43,7 +43,7 @@ Example2:
 * [LeetCode Discuss](https://leetcode.com/problems/different-ways-to-add-parentheses/discuss/66419/Python-easy-to-understand-solution-(divide-and-conquer).)
 
 Solution1:
-*Time: O(n)*
+*Time: O(n^2)*
 *Space: O(n)*
 ```python
 class Solution:
@@ -73,7 +73,7 @@ class Solution:
 * Store the tmp result to save time
 
 Solution2:
-*Time: O(n)*
+*Time: O(n^2)*
 *Space: O(n)*
 ```python
 class Solution:    
