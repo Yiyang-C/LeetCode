@@ -2,7 +2,7 @@
 ## Easy
 ### Array/Hash Table
 #
-Relative: [15](https://github.com/Yiyang-C/LeetCode/blob/master/0001~0100/0015_3Sum.md), 18, 167, 170, 560, 653, 1099
+Relative: [15](https://github.com/Yiyang-C/LeetCode/blob/master/0001~0100/0015_3Sum.md), [18](https://github.com/Yiyang-C/LeetCode/blob/master/0001~0100/0018_4Sum.md), 167, 170, 560, 653, 1099
 #
 
 Given an array of integers ```nums``` and an integer ```target```, return indices of the two numbers such that they add up to ```target```.
