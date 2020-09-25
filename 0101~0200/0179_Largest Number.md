@@ -27,9 +27,9 @@ Solution1:
 ```python
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:
-        if sum(nums) == 0:
-            return "0"
-        nums = [str(x) for x in nums]
+        if not sum(nums):
+            return '0'
+        nums = [str(num) for num in nums]
         nums.sort(key = cmp_to_key(lambda x,y: int(y+x) - int(x+y)))
-        return "".join(nums)
+        return ''.join(nums)
 ```
