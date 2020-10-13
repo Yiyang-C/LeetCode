@@ -33,7 +33,7 @@ Example3:
 **My Note:**
 * Simple Linked List Question
 
-Solution1:
+Solution:
 *Time: O(n)*
 *Space: O(1)*
 ```python
