@@ -2,7 +2,7 @@
 ## Medium
 ### Array/Dynamic Programming
 #
-Relative: [53](https://github.com/Yiyang-C/LeetCode/blob/master/0053_Maximum%20Subarray.md), 198, 238, 628, 713, 
+Relative: [53](https://github.com/Yiyang-C/LeetCode/blob/master/0053_Maximum%20Subarray.md), [198](https://github.com/Yiyang-C/LeetCode/blob/master/0101~0200/0198_House%20Robber.md), 238, 628, 713, 
 #
 
 Given an integer array ```nums```, find the contiguous subarray within an array (containing at least one number) which has the largest product.
