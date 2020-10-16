@@ -2,7 +2,7 @@
 ## Medium
 ### Array/Binary Search
 #
-Relative: 240
+Relative: [240](https://github.com/Yiyang-C/LeetCode/blob/master/0201~0300/0240_Search%20a%202D%20Matrix%20II.md)
 #
 
 Write an efficient algorithm that searches for a value in an ```m x n``` matrix. This matrix has the following properties:
