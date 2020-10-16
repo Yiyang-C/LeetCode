@@ -46,11 +46,9 @@ Solution1:
 ```python
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        if not matrix:
+        if not matrix or not matrix[0]:
             return False
         m, n = len(matrix), len(matrix[0])
-        if not m or not n:
-            return False
         top, bot = 0, m - 1
         while top < bot:
             mid = ((top + bot) >> 1) + 1
