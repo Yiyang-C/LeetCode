@@ -51,6 +51,10 @@ class Solution:
                 return i, d[num]
 ```
 
+**My Note:**
+* HashMap
+* Traverse once
+
 Solution2:
 *Time: O(n)*
 *Space: O(n)*
