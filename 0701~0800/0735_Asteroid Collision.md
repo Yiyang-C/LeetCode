@@ -44,6 +44,10 @@ Example4:
 * ```-1000 <= asteroids[i] <= 1000```
 * ```asteroids[i] != 0```
 
+<details><summary>Hint1</summary>
+    Say a row of asteroids is stable. What happens when a new asteroid is added on the right?
+    </details>
+
 **My Note:**
 * Typical Stack Problem
 * Using a stack to keep the result after collisions.
