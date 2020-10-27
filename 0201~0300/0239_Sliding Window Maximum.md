@@ -2,7 +2,7 @@
 ## Hard
 ### Heap/Sliding Window
 #
-Relative: 76, 155, 159, 265
+Relative: 76, [155](https://github.com/Yiyang-C/LeetCode/blob/master/0101~0200/0155_Min%20Stack.md), 159, 265
 #
 
 You are given an array of integers ```nums```, there is a sliding window of size ```k``` which is moving from the very left of the array to the very right. You can only see the ```k``` numbers in the window. Each time the sliding window moves right by one position.
