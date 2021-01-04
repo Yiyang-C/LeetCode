@@ -43,7 +43,7 @@ Example2:
 
 Solution1:
 *Time: O(n!)*
-*Space: O(1)*
+*Space: O(n)*
 ```python
 class Solution:
     def countArrangement(self, n: int) -> int:
