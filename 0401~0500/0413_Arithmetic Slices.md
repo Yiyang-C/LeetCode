@@ -72,3 +72,24 @@ class Solution:
             res += helper(cnt)  
         return res
 ```
+
+**My Note:**
+* DP
+
+Solution2:
+*Time: O(n)*
+*Space: O(n)*
+```python
+class Solution:
+    def numberOfArithmeticSlices(self, A: List[int]) -> int:
+        res = 0
+        dp = [1 for i in range(len(A))]
+        for i in range(1, len(A)):
+            if i == 1 or A[i] - A[i - 1] != A[i - 1] - A[i - 2]:
+                dp[i] = 2
+            else:
+                dp[i] = dp[i - 1] + 1
+            if dp[i] >= 3:
+                res += dp[i - 1] - 1
+        return res
+```
