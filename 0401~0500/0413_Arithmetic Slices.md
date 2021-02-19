@@ -32,7 +32,8 @@ return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] i
 ```
 
 **My Note:**
-* Check all parentheses from left to right
+* Find all longest subsequence arithmetic slices
+* Calculate the #arithmetic slices
 
 Solution:
 *Time: O(n)*
