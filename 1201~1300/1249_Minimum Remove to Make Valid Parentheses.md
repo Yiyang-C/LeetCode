@@ -51,7 +51,7 @@ Check the array from left to right, remove characters that do not meet the prope
 **My Note:**
 * Check all parentheses from left to right
 
-Solution1:
+Solution:
 *Time: O(n)*
 *Space: O(n)*
 ```python
